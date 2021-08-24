@@ -14,7 +14,7 @@
   "propagateNotifications" : false
 }</macroponent_config>
         <name>User home</name>
-        <order>0</order>
+        <order>100</order>
         <parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <screen_condition/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf527a111b86301068dd5464604bcbab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>User home</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_screen_cf527a111b86301068dd5464604bcbab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-17 19:49:09</sys_updated_on>
+        <sys_updated_on>2021-08-24 16:29:42</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=cf527a111b86301068dd5464604bcbab"/>
 </record_update>

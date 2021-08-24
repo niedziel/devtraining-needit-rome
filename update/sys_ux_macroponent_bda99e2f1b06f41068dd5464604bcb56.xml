@@ -142,7 +142,105 @@
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%",
-    "background-color" : "#81B5A1"
+    "background-color" : "#6295A3"
+  }
+}, {
+  "elementId" : "my_next_needit_row",
+  "elementLabel" : "My Next NeedIt Row",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "my_next_needit_content",
+      "elementLabel" : "My Next NeedIt Content",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "stylized_text_2",
+          "elementLabel" : "Stylized text 2",
+          "propertyValues" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "My next NeedIt",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "h2"
+            },
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","padding":"15px"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "90%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "background-color" : "#A5C7D0"
   }
 }, {
   "elementId" : "reports_row",
@@ -253,7 +351,7 @@
               "clientScript" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_b476f9111bc2301068dd5464604bcb91",
+                "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_bda99e2f1b06f41068dd5464604bcb56",
                 "payload" : {
                   "type" : "MAP_CONTAINER",
                   "container" : {
@@ -312,7 +410,7 @@
                     }
                   }
                 },
-                "sysId" : "b1b19aa71b06f41068dd5464604bcba2"
+                "sysId" : "c6ca5e2b1b06f41068dd5464604bcbe4"
               },
               "operation" : null,
               "targetId" : "cksqboobfaaaaaanddhiieehhypyjcxp",
@@ -418,7 +516,7 @@
               "clientScript" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_b476f9111bc2301068dd5464604bcb91",
+                "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_bda99e2f1b06f41068dd5464604bcb56",
                 "payload" : {
                   "type" : "MAP_CONTAINER",
                   "container" : {
@@ -484,7 +582,7 @@
                     }
                   }
                 },
-                "sysId" : "b1b19aa71b06f41068dd5464604bcba2"
+                "sysId" : "c6ca5e2b1b06f41068dd5464604bcbe4"
               },
               "operation" : null,
               "targetId" : "cksqcaapmaaaaabbnddhiieeffzfffhhybcc",
@@ -628,7 +726,7 @@
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%",
-    "background-color" : "#B3D4C7"
+    "background-color" : "#A5C7D0"
   }
 }, {
   "elementId" : "list_row",
@@ -949,7 +1047,7 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <dispatched_events>b1b19aa71b06f41068dd5464604bcba2</dispatched_events>
+        <dispatched_events>c6ca5e2b1b06f41068dd5464604bcbe4,b1b19aa71b06f41068dd5464604bcba2</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -976,6 +1074,9 @@
   "message" : "All Active NeedIts",
   "comment" : ""
 }, {
+  "message" : "My next NeedIt",
+  "comment" : ""
+}, {
   "message" : "NeedIt Logo",
   "comment" : ""
 }, {
@@ -995,15 +1096,15 @@
         <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-17 15:27:25</sys_created_on>
-        <sys_id>b476f9111bc2301068dd5464604bcb91</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_created_on>2021-08-24 17:47:32</sys_created_on>
+        <sys_id>bda99e2f1b06f41068dd5464604bcb56</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_macroponent_b476f9111bc2301068dd5464604bcb91</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_bda99e2f1b06f41068dd5464604bcb56</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-24 17:24:43</sys_updated_on>
+        <sys_updated_on>2021-08-24 17:57:39</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
