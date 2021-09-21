@@ -3,7 +3,7 @@
         <active>true</active>
         <applicability display_value="NeedIt Users">7b6232111b86301068dd5464604bcb9a</applicability>
         <order>200</order>
-        <screen display_value="User home">cf527a111b86301068dd5464604bcbab</screen>
+        <screen display_value="NeedIt User home">cf527a111b86301068dd5464604bcbab</screen>
         <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-17 19:51:30</sys_created_on>
