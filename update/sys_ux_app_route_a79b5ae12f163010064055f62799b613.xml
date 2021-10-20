@@ -2,10 +2,10 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="NeedIt Experience Config">cc3ac6e42fb13010064055f62799b69b</app_config>
         <description/>
-        <fields>sysid</fields>
+        <fields>sysId,table</fields>
         <icon/>
         <name>Open Record from Data Set Component</name>
-        <optional_parameters/>
+        <optional_parameters>test,test2</optional_parameters>
         <order>0</order>
         <parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-30 23:03:59</sys_created_on>
         <sys_id>a79b5ae12f163010064055f62799b613</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Open Record from Data Set Component</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_app_route_a79b5ae12f163010064055f62799b613</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-30 23:04:34</sys_updated_on>
+        <sys_updated_on>2021-10-20 23:00:36</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=a79b5ae12f163010064055f62799b613"/>
 </record_update>

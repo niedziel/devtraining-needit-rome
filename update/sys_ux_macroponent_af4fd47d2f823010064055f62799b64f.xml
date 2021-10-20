@@ -383,7 +383,7 @@
             "title" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
-                "message" : "My NeedIt App Records",
+                "message" : "My NeedIt Application Records",
                 "comment" : ""
               }
             },
@@ -1252,11 +1252,11 @@
 } ]</data>
         <dispatched_events>9e87b1502f123010064055f62799b650,9893b5122f823010064055f62799b633</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>a5e675d82fd23010064055f62799b60c</handled_events>
+        <handled_events>d58cb4c6db9bbc10629bd6aa4896199a</handled_events>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
-  "x_58872_needit.OPEN_NEEDIT" : [ {
+  "x_58872_needit.OPEN_NEEDIT_APP_RECORDS" : [ {
     "broker" : null,
     "clientScript" : null,
     "declarativeAction" : null,
@@ -1267,15 +1267,21 @@
         "container" : {
           "route" : {
             "type" : "JSON_LITERAL",
-            "value" : "simple-list"
+            "value" : "open-record-from-data-set-component"
           },
           "fields" : {
             "type" : "MAP_CONTAINER",
             "container" : {
-              "table" : {
+              "sysId" : {
                 "type" : "EVENT_PAYLOAD_BINDING",
                 "binding" : {
                   "address" : [ "sysId" ]
+                }
+              },
+              "table" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "table" ]
                 }
               }
             }
@@ -1313,7 +1319,7 @@
       "sysId" : "9e87b1502f123010064055f62799b650"
     },
     "operation" : null,
-    "targetId" : "ckstjihddjaaaaaaoccaiijjhhfhiiggueedd",
+    "targetId" : "ckvaaddbjaajaaaaaahccaiijjiirbbweohhv",
     "type" : "EVENT"
   } ]
 }</internal_event_mappings>
@@ -1341,7 +1347,7 @@
   "message" : "My Active NeedIts",
   "comment" : ""
 }, {
-  "message" : "My NeedIt App Records",
+  "message" : "My NeedIt Application Records",
   "comment" : ""
 }, {
   "message" : "My Next NeedIt",
@@ -1374,13 +1380,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-18 22:23:39</sys_created_on>
         <sys_id>af4fd47d2f823010064055f62799b64f</sys_id>
-        <sys_mod_count>89</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_af4fd47d2f823010064055f62799b64f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-14 15:44:24</sys_updated_on>
+        <sys_updated_on>2021-10-20 23:05:00</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
