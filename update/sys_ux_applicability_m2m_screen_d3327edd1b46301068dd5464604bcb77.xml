@@ -3,7 +3,7 @@
         <active>true</active>
         <applicability display_value="NeedIt Admins">1b41badd1b46301068dd5464604bcb7b</applicability>
         <order>100</order>
-        <screen display_value="Home default">c17631511bc2301068dd5464604bcb26</screen>
+        <screen display_value="NeedIt Admin home">c17631511bc2301068dd5464604bcb26</screen>
         <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-17 19:48:38</sys_created_on>
